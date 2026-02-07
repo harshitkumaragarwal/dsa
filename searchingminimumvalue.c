@@ -2,7 +2,7 @@
 int main(){
 
     int i;
-    int arr[5]={34,56,1,3,2};
+    int arr[5]={34,56,1,0,2};
     int min=arr[0];
 
     for(i=0;i<5;i++){
@@ -12,5 +12,7 @@ int main(){
     }
     printf("%d",min);
 
+
     return 0;
+
 }
